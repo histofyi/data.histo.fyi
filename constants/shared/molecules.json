@@ -1,0 +1,155 @@
+{
+	"class_i": {
+		"title": "MHC Class I",
+		"class": "Class I",
+		"chains": ["alpha","beta2m","peptide"],
+		"domains": {
+			"alpha1": {
+				"start": 0,
+				"end": 90
+			},
+			"alpha2": {
+				"start": 91,
+				"end": 182
+			}
+		},
+		"antigen_binding_domain": {
+			"includes": ["alpha1", "alpha2"],
+			"pockets": {
+				"A": {
+					"binds": ["p1"]
+				},
+				"B": {
+					"binds": ["p2"],
+					"synonyms": ["45"]
+				},
+				"C": {
+					"binds": ["p3"]
+				},
+				"D": {
+					"binds": ["p5","pn-2"]
+				},
+				"E": {
+					"binds": ["p5"]
+				},
+				"F": {
+					"binds": ["pn", "c-terminus"]
+				},
+				"n_terminus": {
+					"mhc_residues":[
+						{
+							"number":7,
+							"residue":"Y",
+							"domain":"alpha1",
+							"location":"floor",
+							"part_of":"beta_sheet_strand_1"
+						},
+						{
+							"number":59,
+							"residue":"Y",
+							"domain":"alpha1",
+							"location":"alpha_1_wall_helix",
+							"part_of":"alpha_helix"
+						},
+						{
+							"number":159,
+							"residue":"Y",
+							"domain":"alpha2",
+							"location":"alpha_2_wall_helix",
+							"part_of":"alpha_helix"
+						},
+						{
+							"number":171,
+							"residue":"Y",
+							"domain":"alpha2",
+							"location":"alpha_2_wall_helix",
+							"part_of":"alpha_helix"
+						}
+					],
+					"peptide_positions":["p1"]
+				},
+				"c_terminus": {
+					"mhc_residues":[
+						{
+							"number":77,
+							"residue":"D",
+							"domain":"alpha1",
+							"location":"alpha_1_wall_helix",
+							"part_of":"alpha_helix"
+						},
+						{
+							"number":80,
+							"residue":"T",
+							"domain":"alpha1",
+							"location":"alpha_1_wall_helix",
+							"part_of":"alpha_helix"
+						},
+						{
+							"number":123,
+							"residue":"Y",
+							"domain":"alpha2",
+							"location":"floor",
+							"part_of":"beta_sheet_strand_4"
+						},
+						{
+							"number":143,
+							"residue":"T",
+							"domain":"alpha2",
+							"location":"alpha2",
+							"part_of":"alpha_helix"
+						},
+						{
+							"number":146,
+							"residue":"K",
+							"domain":"alpha2",
+							"location":"alpha_2_wall_helix",
+							"part_of":"alpha_helix"
+						},
+						{
+							"number":147,
+							"residue":"W",
+							"domain":"alpha2",
+							"location":"alpha_2_wall_helix",
+							"part_of":"alpha_helix"
+						}
+					],
+					"peptide_positions":["pn","pn-1"]
+				}
+			}
+		}
+	},
+	"class_ii": {
+		"title": "MHC Class II",
+		"class": "Class II",
+		"chains": ["alpha", "beta", "peptide"],
+		"domains": {
+			"alpha1": {
+				"start": 0,
+				"end": 90
+			},
+			"alpha2": {
+				"start": 91,
+				"end": 182
+			},
+			"beta1": {
+				"start": 0,
+				"end": 90
+			},
+			"beta2": {
+				"start": 91,
+				"end": 182
+			}
+		},
+		"antigen_binding_domain": {
+			"includes": ["alpha1", "beta1"],
+			"pockets": {
+				"A": {},
+				"B": {},
+				"C": {},
+				"D": {},
+				"E": {},
+				"F": {}
+			}
+		}
+	}
+}

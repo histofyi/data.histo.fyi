@@ -1,0 +1,17 @@
+[
+    {"value": "homo_sapiens", "label": "Human", "scientific_name": "Homo sapiens"},
+    {"value": "macaca_mulatta", "label": "Macaque", "scientific_name": "Macaca mulatta"},
+    {"value": "pan_troglodytes", "label": "Chimpanzee", "scientific_name": "Pan troglodytes"},
+    {"value": "mus_musculus", "label": "Mouse", "scientific_name": "Mus musculus"},
+    {"value": "rattus_norvegicus", "label": "Rat", "scientific_name": "Rattus norvegicus"},
+    {"value": "canis_lupus_familiaris", "label": "Dog", "scientific_name": "Canis lupus familiaris"},
+    {"value": "bos_taurus", "label": "Cow", "scientific_name": "Bos taurus"},
+    {"value": "equus_caballus", "label": "Horse", "scientific_name": "Equus caballus"},
+    {"value": "ovis_aries", "label": "Sheep", "scientific_name": "Ovis aries"},
+    {"value": "sus_scrofa", "label": "Pig", "scientific_name": "Sus scrofa"},
+    {"value": "gallus_gallus", "label": "Chicken", "scientific_name": "Gallus gallus"},
+    {"value": "anas_platyrhynchos", "label": "Duck", "scientific_name": "Anas platyrhynchos"}
+    {"value": "pteropus_alecto", "label": "Bat", "scientific_name": "Pteropus alecto"},
+    {"value": "ailuropoda_melanoleuca", "label": "Giant panda", "scientific_name": "Ailuropoda melanoleuca"}
+]
+

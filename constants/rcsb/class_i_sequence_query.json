@@ -1,0 +1,26 @@
+{
+  "query": {
+    "type": "terminal",
+    "service": "sequence",
+    "parameters": {
+      "evalue_cutoff": 0.1,
+      "identity_cutoff": 0,
+      "target": "pdb_protein_sequence",
+      "value": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDRNTRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQMMYGCDVGSDGRFLRGYRQDAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQWRAYLEGTCVEWLRRYLENGKETLQR"
+    }
+  },
+  "return_type": "entry",
+  "request_options": {
+    "pager": {
+      "start": 0,
+      "rows": 5000
+    },
+    "scoring_strategy": "combined",
+    "sort": [
+      {
+        "sort_by": "rcsb_accession_info.initial_release_date",
+        "direction": "desc"
+      }
+    ]
+  }
+} 
