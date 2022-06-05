@@ -1,57 +1,47 @@
 {
 	"allele_group_count": 1,
-	"original_count": 9,
-	"unique_abd_count": 9,
-	"species":"mouse",
+	"original_count": 4,
+	"unique_abd_count": 4,
+	"species": "mouse",
 	"sequences": {
-		"db": {
+		"h2-db": {
 			"count": 1,
 			"alleles": [{
 				"sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWE",
 				"id": "sp|P01899|HA11_MOUSE",
-				"allele": "db",
-				"allele_group": "db",
+				"allele": "h2-db",
+				"allele_group": "h2-db",
 				"description": "sp|P01899|HA11_MOUSE H-2 class I histocompatibility antigen, D-B alpha chain OS=Mus musculus OX=10090 GN=H2-D1 PE=1 SV=2"
 			}]
 		},
-		"dd": {
+		"h2-dd": {
 			"count": 1,
 			"alleles": [{
 				"sequence": "GSHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQSFRVDLRTALRYYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRTDPPKAHVTHHRRPEGDVTLRCWALGFYPADITLTWQLNGEELTQEMELVETRPAGDGTFQKWASVVVPLGKEQKYTCHVEHEGLPEPLTLRWG",
 				"id": "sp|P01900|HA12_MOUSE",
-				"allele": "dd",
-				"allele_group": "dd",
+				"allele": "h2-dd",
+				"allele_group": "h2-dd",
 				"description": "sp|P01900|HA12_MOUSE H-2 class I histocompatibility antigen, D-D alpha chain OS=Mus musculus OX=10090 GN=H2-D1 PE=1 SV=1"
 			}]
 		},
-		"dk": {
+		"h2-dk": {
 			"count": 1,
 			"alleles": [{
 				"sequence": "GPHSLRYFETVVSRPGLGEPRFISVGYVDNTEFVRFDSDAENPRDEPRVRWMEQEGPEYWERETQIAKGNEQSFRVDLRTLLRYYNQSEGGSHTIQRLSGCDVGSDWRLLRGYEQFAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGAAERDRAYLEGTCVEWLRRYLELGNATLLHTDSPKAHVTHHPRSKVEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCHVYHEGLPEPLTLRWE",
 				"id": "sp|P14426|HA13_MOUSE",
-				"allele": "dk",
-				"allele_group": "dk",
+				"allele": "h2-dk",
+				"allele_group": "h2-dk",
 				"description": "sp|P14426|HA13_MOUSE H-2 class I histocompatibility antigen, D-K alpha chain OS=Mus musculus OX=10090 GN=H2-D1 PE=1 SV=1"
 			}]
 		},
-		"dp": {
+		"h2-dp": {
 			"count": 1,
 			"alleles": [{
 				"sequence": "GPHSLRYFVTAVSRPGLGKPRYMEVGYVDNTEFVRFDSDAENPRMKPRVRWMEQEGPEYWEQETQNAKDHEQSFRVSLRNLLGYYNQSKGGSHTIQGMRGCDVGSDWRLLRGYEQFAYDGPDYIALNEDLKTWTAADMAAQITRRKWEQAGAAETLRAYLEGACVEWLRRYLELGNATLLCTDPPKAHVTHHPRSEGKVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWAALVVPLGKEQNYTCHVEHEGLPEPLTLRWE",
 				"id": "sp|P14427|HA14_MOUSE",
-				"allele": "dp",
-				"allele_group": "dp",
+				"allele": "h2-dp",
+				"allele_group": "h2-dp",
 				"description": "sp|P14427|HA14_MOUSE H-2 class I histocompatibility antigen, D-P alpha chain OS=Mus musculus OX=10090 GN=H2-D1 PE=1 SV=1"
-			}]
-		},
-		"ld": {
-			"count": 1,
-			"alleles": [{
-				"sequence": "GPHSMRYFETAVSRPGLGEPRYISVGYVDNKEFVRFDSDAENPRYEPQAPWMEQEGPEYWERITQIAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQWMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWE",
-				"id": "sp|P01897|HA1L_MOUSE",
-				"allele": "ld",
-				"allele_group": "ld",
-				"description": "sp|P01897|HA1L_MOUSE H-2 class I histocompatibility antigen, L-D alpha chain OS=Mus musculus OX=10090 GN=H2-L PE=1 SV=2"
 			}]
 		}
 	},

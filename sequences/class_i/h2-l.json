@@ -1,0 +1,19 @@
+{
+	"allele_group_count": 1,
+	"original_count": 1,
+	"unique_abd_count": 1,
+	"species":"mouse",
+	"sequences": {
+		"h2-ld": {
+			"count": 1,
+			"alleles": [{
+				"sequence": "GPHSMRYFETAVSRPGLGEPRYISVGYVDNKEFVRFDSDAENPRYEPQAPWMEQEGPEYWERITQIAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQWMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWE",
+				"id": "sp|P01897|HA1L_MOUSE",
+				"allele": "h2-ld",
+				"allele_group": "h2-ld",
+				"description": "sp|P01897|HA1L_MOUSE H-2 class I histocompatibility antigen, L-D alpha chain OS=Mus musculus OX=10090 GN=H2-L PE=1 SV=2"
+			}]
+		}
+	},
+	"last_updated": "2021-08-19T15:36:15.366934"
+}
